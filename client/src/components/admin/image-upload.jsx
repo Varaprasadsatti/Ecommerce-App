@@ -5,6 +5,7 @@ import { FileIcon, UploadCloudIcon, XIcon } from "lucide-react";
 import { Button } from "../ui/button";
 import axios from "axios";
 import { Skeleton } from "../ui/skeleton";
+require("dotenv").config();
 
 function ProductImageUpload({imageFile,setImageFile,uploadedImageUrl, setUploadedImageUrl,setImageLoadingState,imageLoadingState,isEditMode,isCustomStyling=false}){
     const inputRef = useRef(null)
