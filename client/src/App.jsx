@@ -38,7 +38,7 @@ function App() {
     dispatch(checkAuth(token))
   },[dispatch])
 
-  if (isLoading) return <Skeleton className="w-[800px] h-[600px] bg-red-900" />
+  if (isLoading) return <Skeleton className="w-[800px] h-[600px]" />
 
 
   
